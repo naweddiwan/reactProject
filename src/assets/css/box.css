@@ -1,0 +1,46 @@
+.item{
+    flex-direction: column;
+    border-radius: 10px;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    width: 80%;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    display: flex;
+    align-content: space-around;
+    text-align: center;
+    color: white;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #B721FF 0%, #21D4FD 100%);
+
+}
+.item:hover{
+    border: 2px solid cyan;
+    cursor: pointer;
+}
+
+.container{
+    align-content: center;
+    justify-content: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.textContent{
+    text-align: left;
+}
+span{
+    font-style: italic;
+    font-size: smaller;
+    color: khaki;
+}
+
+.modalData{
+    margin-left: 10px;
+    font-size: smaller;
+}
