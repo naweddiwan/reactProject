@@ -11,9 +11,9 @@
     display: flex;
     align-content: space-around;
     text-align: center;
-    color: white;
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #B721FF 0%, #21D4FD 100%);
+    color: black;
+    background-color: white;
+    /* background-image: linear-gradient(19deg, #B721FF 0%, #21D4FD 100%); */
     overflow-wrap: break-word;
 
 }
@@ -38,7 +38,7 @@
 span{
     font-style: italic;
     font-size: smaller;
-    color: khaki;
+    color: darkslategrey;
 }
 
 .modalData{
