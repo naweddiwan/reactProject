@@ -6,7 +6,7 @@ import ModalTest from './Modal'
 
 function FetchingData() {
 
-    // States to keep for fetching api data
+    // States to keep for fetching api data.
     const [posts, setPosts] = useState([])
     const [error, setError] = useState('')
 
