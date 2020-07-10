@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
         <h1>Data List</h1>
-      
       <FetchingData/>
    
     </div>

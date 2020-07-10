@@ -4,11 +4,8 @@ import '../assets/css/box.css'
 import '../assets/css/bootstrap.min.css'
 import ModalTest from './Modal'
 
-
-
-
 function FetchingData() {
-    
+
     // States to keep for fetching api data
     const [posts, setPosts] = useState([])
     const [error, setError] = useState('')
@@ -74,7 +71,7 @@ function FetchingData() {
     const ClickHandler = (data) => {
         setModalData(data)
         setModelisOpen(true);
-       
+
     }
 
 
@@ -109,7 +106,6 @@ function FetchingData() {
         }
     }) : <div>{error}</div>
 
-   // const modal = modalData.length?<ModalTest isOpen={modalIsOpen} dismissHandler={CloseHandler} details={modalData} />:null
     return (
         <div >
             <div className="container">
@@ -118,7 +114,7 @@ function FetchingData() {
                     {loading && 'loading.....'}
                 </div>
             </div>
-            { Object.keys(modalData).length > 0 ? <ModalTest isOpen={modalIsOpen} dismissHandler={CloseHandler} details={modalData} /> : null }
+            {Object.keys(modalData).length > 0 ? <ModalTest isOpen={modalIsOpen} dismissHandler={CloseHandler} details={modalData} /> : null}
         </div>
     )
 }
