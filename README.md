@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+## Link to the project[live]:
+Link: https://master.d1kz5a2fhs5oar.amplifyapp.com/
 ## Available Scripts
 
 In the project directory, you can run:
